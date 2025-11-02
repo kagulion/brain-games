@@ -1,4 +1,3 @@
-#!usr/bin/env node
 import runGame from '../src/index.js'
 
 const description = 'Отвечайте «да», если число четное, в противном случае ответьте «нет».'

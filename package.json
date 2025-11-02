@@ -9,7 +9,7 @@
     "node"
   ],
   "bin": {
-    "brain-even": "./bin/brain-even.js"
+  "brain-even": "./bin/brain-even.js"
   },
   "license": "ISC",
   "author": "KAGU",

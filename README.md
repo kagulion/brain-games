@@ -29,6 +29,7 @@ brain-games/
 │ │ ├── gcd.js
 │ │ ├── progression.js
 │ │ └── prime.js
+└── .gitattributes          // LF (для корректной работы)
 └── README.md
 ```
 
@@ -40,4 +41,4 @@ brain-games/
 
 ## Возможные проблемы
 
-1. Старые версии PowerShell плохо отображают кириллицу (CMD, Linux Terminal — ОК)
+1. Старые версии PowerShell плохо отображают кириллицу (Linux Terminal — ОК)
