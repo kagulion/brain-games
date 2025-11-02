@@ -1,2 +1,4 @@
 node_modules
-user-tests
+
+# Пользовательские тесты
+user-tests 
