@@ -16,9 +16,9 @@ const runGame = (generateRound, description) => {
       console.log('Правильно!')
     } else {
       console.log(
-        `'${userAnswer}' неверно ;(. Правильный ответ: ${correctAnswer}`
+        `Неверно ;(. Правильный ответ: ${correctAnswer}`
       )
-      console.log(`Давайте попробуем снова, ${name}!`)
+      console.log(`Давайте попробуем снова, ${name}! Чтобы начать заново, введите "npx brain-even".`)
       return
     }
   }

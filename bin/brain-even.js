@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 import runGame from '../src/index.js'
 
-const description = 'Отвечайте «да», если число четное, в противном случае ответьте «нет».'
+const description = 'Вы запустили игру «Чет-нечет». Правила: отвечайте «да», если число четное, в противном случае отвечайте «нет».'
 
 const generateRound = () => {
   const number = Math.floor(Math.random() * 100)
