@@ -14,7 +14,6 @@
 
 ```
 brain-games/
-├── package.json
 ├── bin/                    // Точки входа (консольные команды)
 │ ├── brain-games.js
 │ ├── brain-calc.js
@@ -32,3 +31,8 @@ brain-games/
 │ │ └── prime.js
 └── README.md
 ```
+
+## Зависимости
+
+### readline-sync
+Библиотека для Node.js, которая позволяет читать ввод от пользователя **синхронно** из командной строки.
