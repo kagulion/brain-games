@@ -1,5 +1,3 @@
-// Калькулятор — генерирует случайное выражение из двух чисел и одного оператора, правильный ответ — результат выражения.
-
 const generateRound = () => {
   const a = Math.floor(Math.random() * 10) + 1
   const b = Math.floor(Math.random() * 10) + 1
