@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync'
 
-const runGame = (generateRound, description) => {
+export const runGame = (generateRound, description) => {
   console.log('Добро пожаловать в «Игры разума»')
   console.log(description)
 
@@ -25,5 +25,3 @@ const runGame = (generateRound, description) => {
 
   console.log(`Поздравляем, ${name}!`)
 }
-
-export default runGame
