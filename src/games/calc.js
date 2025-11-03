@@ -25,5 +25,5 @@ export const generateRound = () => {
   }
 
   const question = `${a} ${operator} ${b}`
-  return [question, correctAnswer]
+  return [question, String(correctAnswer)]
 }
