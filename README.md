@@ -23,6 +23,7 @@ brain-games/
 │ └── brain-prime.js
 ├── src/
 │ ├── index.js              // Общий движок игры
+│ ├── utils.js              // Общие функции
 │ ├── games/                // Модули с логикой
 │ │ ├── calc.js
 │ │ ├── even.js
