@@ -1,4 +1,3 @@
-import { question } from 'readline-sync'
 import { getRandomNumber } from '../utils.js'
 
 export const description =
