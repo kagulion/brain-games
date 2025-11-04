@@ -1,7 +1,8 @@
 import readlineSync from 'readline-sync'
+import colors from 'yoctocolors'
 
 export const runGame = (generateRound, description) => {
-  console.log('Добро пожаловать в «Игры разума»')
+  console.log(colors.yellow('Добро пожаловать в «Игры разума»'))
   console.log(description)
 
   const name = readlineSync.question('Как вас зовут? ')
@@ -13,15 +14,19 @@ export const runGame = (generateRound, description) => {
     const userAnswer = readlineSync.question('Ваш ответ: ')
 
     if (userAnswer === correctAnswer) {
-      console.log('Правильно!')
+      console.log(colors.greenBright('Правильно!'))
     } else {
       console.log(
-        `Неверно ;(. Правильный ответ: ${correctAnswer}`
+        colors.redBright(`Неверно ;(. Правильный ответ: ${correctAnswer}`)
       )
-      console.log(`Давайте попробуем снова, ${name}! Введите команду заново.`)
+      console.log(
+        colors.yellow(
+          `Давайте попробуем снова, ${name}! Введите команду заново.`
+        )
+      )
       return
     }
   }
 
-  console.log(`Поздравляем, ${name}!`)
+  console.log(colors.bgGreenBright(`Поздравляем, ${name}!`))
 }
