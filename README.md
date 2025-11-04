@@ -5,10 +5,7 @@
 ## Установка
 
 ```
-git clone https://github.com/kagulion/brain-games.git
-cd brain-games
-npm install
-npm link
+npm i @kagu/brain-games
 ```
 
 ## Игры
