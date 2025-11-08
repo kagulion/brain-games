@@ -2,6 +2,9 @@
 
 «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново."
 
+[![Maintainability](https://qlty.sh/badges/5978a911-dcb1-405e-b31b-0b0e5d2578f9/maintainability.svg)](https://qlty.sh/gh/kagulion/projects/brain-games)
+[![Code Coverage](https://qlty.sh/badges/5978a911-dcb1-405e-b31b-0b0e5d2578f9/coverage.svg)](https://qlty.sh/gh/kagulion/projects/brain-games)
+
 ## Установка
 
 ```
